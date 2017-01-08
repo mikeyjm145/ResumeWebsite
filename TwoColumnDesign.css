@@ -1,0 +1,184 @@
+#wrapper {
+	background-color: #DBDBDB;
+}
+
+.leftCol {
+	float: left;
+	border: 2px solid #019;
+	width: 500px;
+	background-color: #FFF;
+}
+
+.leftCol2 {
+	border: 2px solid #019;
+	width: 500px;
+	float: left;
+	background-color: #FFF;
+}
+
+.rightCol {
+	border: 2px solid #019;
+	width: 490px;
+	height: 463px;
+	float: right;
+	background-color: #FFF;
+}
+
+.rightCol2 {
+	border: 2px solid #019;
+	width: 490px;
+	height: 369px;
+	float: right;
+	background-color: #FFF;
+}
+
+.detailList dt {
+	border-top: 2px solid #019;
+	border-bottom: 2px solid #019;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #019;
+}
+
+.detailList {
+	font-size: 1.1em;
+	color: #019;
+	background-color: #FFF;
+}
+
+.head {
+	font-weight: bold;
+	font-size: 1.9em;
+	text-align: center;
+}
+
+#description h1 {
+	padding-left: 10px;
+	color: #019;
+}
+
+#description #welcomeText {
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+#description {
+	padding-left: 10px;
+	border-top: 2px solid #019;
+	border-bottom: 2px solid #019;
+	margin-bottom: 0px;
+	background-color: #FFF;
+}
+
+#content .seperator {
+	width: 998px;
+	display: block;
+	margin: 0 auto;
+}
+
+#welcomeText {
+	font-size: 1.34em;
+	padding: 0px 20px;
+}
+
+#display {
+	padding-left: 10px;
+	margin-top: 16px;
+	height: 650px;
+	width: 720px;
+	border: 3px inset #019;
+	overflow: auto;
+	background-color: #FFF;
+}
+
+.col1 {
+	padding-left: 10px;
+	width: 240px;
+	display: inline;
+	float: left;
+	padding-right: 10px;
+}
+
+.col2 {
+	width: 720px;
+	height: 600px;
+	display: inline;
+	float: right;
+	padding-right: 20px;
+}
+
+.icon {
+	width: 120px;
+	margin-right: 5px;
+	display: inline-table;
+	margin-bottom: 10px;
+}
+
+.icon .iconDescription {
+	text-align: center;
+	margin-bottom: 0;
+	text-decoration: none;
+	visibility: visible;
+	display: block;
+	font-size: 13px;
+}
+
+.icon .MyIcon {
+	width: 120px;
+	font-weight: bold;
+	background-color: #FFF;
+}
+
+.icon .hide {
+	visibility: hidden;
+	display: none;
+}
+
+.icon:hover {
+	font-weight: bold;
+}
+
+.gallery {
+	width: 160px;
+	height: 569px;
+	overflow: hidden;
+}
+
+.gallery span {
+	visibility: hidden;
+	display: none;
+}
+
+.gallery li {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.gallery img {
+	margin-bottom: 5px;
+}
+
+.gallery li a:hover {
+	border: 2px solid #019;
+}
+
+.descriptionDiv {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#Description {
+	float: none;
+}
+
+.descriptionSpan {
+	font-size: 1.4em;
+}
+
+.pageDescription {
+	text-align: center;
+	font-size: 1.7em;
+}

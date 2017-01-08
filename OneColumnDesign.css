@@ -1,0 +1,112 @@
+/**one column design**/
+#content {
+	color: #019;
+}
+
+#site_map dt {
+    padding-left: 10px;
+    color: #FFF;
+    font-weight: bold;
+	font-size: 30px;
+}
+
+#site_map dd {
+    padding-bottom: 10px;
+	font-size: 25px;
+}
+
+#site_map dt:nth-of-type(even) {
+    background-color: #019;
+    border-bottom: 5px solid #FFF;
+    border-top: 5px solid #FFF;
+}
+
+#site_map dt:nth-of-type(odd) {
+    background-color: #828282;
+    border-bottom: 5px solid #019;
+    border-top: 5px solid #019;
+}
+
+#site_map dt a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#site_map dd a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#site_map dt a:hover {
+    color: #FF0000;
+}
+
+#site_map dd a:hover {
+    color: #FF0000;
+}
+
+.welcome {
+	font-weight: bold;
+	font-size: 1.75em;
+	font-style: italic;
+	text-decoration:underline;
+}
+
+#pageTitle {
+	font-weight: bold;
+	font-size: 1.55em;
+	text-align: center;
+	text-decoration:underline;
+}
+
+#content img {
+	border: 5px groove blue;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+
+.intro {
+	float: right;
+	width: 500px;
+	padding: 0 10px;
+	font-size: 1.35em;
+}
+
+/*For form*/
+
+form {
+	width: 550px;
+	padding: 0 20px;
+	display: block;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+label {
+	font-size: 1.45em;
+}
+
+textarea {
+	margin-left: 20px;
+	width: 500px;
+}
+
+input, textarea {
+	font-size: 1.05em;
+	margin-bottom: 10px;
+}
+
+.hide{
+	display: block;
+	width: 520px;
+}
+
+#mySubmit {
+	font-size: 1em;
+	width: 150px;
+	margin: 0px auto;
+}
+
+#doNotRequestMeeting {
+	visibility:hidden;
+}

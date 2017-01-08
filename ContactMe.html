@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Contact Page">
+    <meta name="keywords" content="Contact,Me,">
+    <meta name="author" content="Michael Morguarge">
+	<title>Michael Morguarge :-: Home</title>
+	<link rel="stylesheet" type="text/css" href="mainsheet.css">
+	<link rel="stylesheet" type="text/css" href="OneColumnDesign.css">
+    <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="icon" href="images/me2a.ico" type="image/icon">
+</head>
+<body>
+<div id="wrapper">
+	<a href="Home.html" id="headerLink"><div id="header">Michael Morguarge</div><!-- header --></a>
+	<div id="navigation">
+        <a href="Home.html" class="navButton">Home</a>
+        <a href="BioAndSchool.html" class="navButton">Biography & Education</a>
+        <a href="Goals.html" class="navButton">Goals & Objectives</a>
+        <a href="Portfolio.html" class="navButton">Portfolio</a>
+        <a href="Awards.html" class="navButton">Awards</a>
+        <a href="ContactMe.html" class="navButton">Contact Me</a>
+        <a href="Sitemap.html" class="navButton">Sitemap</a>
+    </div><!-- navigation -->
+	<div id="content">
+		<p id="pageTitle"><span >Contact Me:</span></p>
+		<form action="http://webdevbasics.net/scripts/demo.php" method="get" id="formSpacing">
+			First Name*:&nbsp;&nbsp;<input type="text" name="FirstName" id="fName" class="alignInline" placeholder="Enter First Name" ><br>
+			
+			Last Name*:&nbsp;&nbsp;<input type="text" name="LastName" id="lName" class="alignInline" placeholder="Enter Last Name" ><br>
+			
+			Email*:&nbsp;&nbsp;<input type="email" name="Email" id="email" placeholder="Enter Email" ><br>
+			
+			<input type="button" name="RequestMeeting" id="requestMeeting" style="cursor: pointer;" value="Schedule a Meeting">
+			<input type="button" name="DoNotRequestMeeting" id="doNotRequestMeeting" style="cursor: pointer;" value="Do not Schedule Meeting">
+			<div class="hide">
+				Meeting Date:&nbsp;&nbsp;<input type="date" name="Date" id="meetDate"><br>
+				Meeting Time:&nbsp;&nbsp;<input type="time" name="Time" id="meetTime"><br>
+				Location:&nbsp;&nbsp;<input type="search" name="Location" id="location" class="alignInline" placeholder="Enter Location to meet">&nbsp;&nbsp;<input type="button" name="FindLocationButton" id="MyLocation" value="Convert Location To Link"><br>
+			</div>
+			<br><label for="message">Comment:<br></label><textarea name="Message" id="message" rows="10" placeholder="Comments?"></textarea><br>
+			
+			<input type="submit" id="MySubmit" style="cursor: hand;" value="Send Email">&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="ClearButton" id="MyClear" value="Clear"><br>
+		</form>
+	</div>
+	<footer class="clear">
+		<span>My Email: </span><a href="mailto:mikeyjm14@gmail.com">Michael@Morguarge.org</a>
+	</footer>
+</div><!-- wrapper -->
+</body>
+</html>
